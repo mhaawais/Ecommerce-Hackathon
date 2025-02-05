@@ -1,0 +1,70 @@
+[
+  {
+    "fields": [
+      {
+        "name": "id",
+        "type": "string",
+        "title": "ID"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "name": "image",
+        "type": "image"
+      },
+      {
+        "name": "price",
+        "type": "number"
+      },
+      {
+        "name": "description",
+        "type": "text"
+      },
+      {
+        "name": "discountPercentage",
+        "type": "number"
+      },
+      {
+        "name": "isFeaturedProduct",
+        "type": "boolean"
+      },
+      {
+        "name": "stockLevel",
+        "type": "number"
+      },
+      {
+        "name": "category",
+        "type": "string"
+      }
+    ],
+    "name": "product",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "email",
+        "type": "string"
+      },
+      {
+        "name": "subject",
+        "type": "string"
+      },
+      {
+        "name": "message",
+        "type": "text"
+      }
+    ],
+    "name": "feedback",
+    "type": "document"
+  }
+]

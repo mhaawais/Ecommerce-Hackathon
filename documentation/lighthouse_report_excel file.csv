@@ -1,0 +1,5 @@
+Category,Score,Metrics
+Performance,66,"First Contentful Paint: 1.2s, Largest Contentful Paint: 2.3s, Total Blocking Time: 9,560ms, Cumulative Layout Shift: 0.091, Speed Index: 1.2s"
+Accessibility,88,"Contrast issues, Links missing discernible names, Touch targets insufficient"
+Best Practices,100,"CSP effectiveness, Missing source maps"
+SEO,100,Basic SEO checks passed
